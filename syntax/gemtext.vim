@@ -2,8 +2,6 @@
 " as described by section 5 of the Gemini Specification
 " https://gemini.circumlunar.space/docs/specification.html
 
-" Add this file to ~/.vim/syntax/gemtext.vim
-
 if exists("b:current_syntax")
     finish
 endif
@@ -37,4 +35,3 @@ hi def link gemtextQuoteOperator Operator
 hi def link gemtextQuoteText String
 
 hi def link gemtextPreformatBlock PreProc
-
