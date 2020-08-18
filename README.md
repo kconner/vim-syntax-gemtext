@@ -1,6 +1,6 @@
 # vim-syntax-gemtext
 
-This project adds a Gemtext syntax mode for [vim](https://www.vim.org), with syntax highlighting and file type detection.
+This is a Gemtext syntax mode for [vim](https://www.vim.org), with syntax highlighting and file type detection.
 
 ## Setup
 
