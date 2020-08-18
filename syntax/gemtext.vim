@@ -6,6 +6,8 @@ if exists("b:current_syntax")
     finish
 endif
 
+syntax sync fromstart
+
 syntax match gemtextLinkOperator '\v^\=\>' nextgroup=gemtextLinkURL skipwhite
 syntax match gemtextLinkURL '\v\S+' contained nextgroup=gemtextLinkText skipwhite
 syntax match gemtextLinkText '\v\S.*$' contained
