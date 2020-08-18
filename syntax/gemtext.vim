@@ -10,8 +10,9 @@ syntax match gemtextLinkOperator '\v^\=\>' nextgroup=gemtextLinkURL skipwhite
 syntax match gemtextLinkURL '\v\S+' contained nextgroup=gemtextLinkText skipwhite
 syntax match gemtextLinkText '\v\S.*$' contained
 
-syntax match gemtextHeadingOperator '\v^##?#?' nextgroup=gemtextHeadingText skipwhite
+syntax match gemtextHeadingOperator '\v^\##?#?' nextgroup=gemtextHeadingText skipwhite
 syntax match gemtextHeadingText '\v\s*\S.*$' contained
+syntax match gemtextNotAHeadingOperator '\v^\####'
 
 syntax match gemtextUnorderedListItemOperator '\v^\*\s'
 
