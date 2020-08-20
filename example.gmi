@@ -1,0 +1,34 @@
+# Heading level one
+## Heading level two
+### Heading level three
+#### Not a heading
+
+#Also heading level one
+##Also heading level two
+###Also heading level three
+####Not a heading
+
+=> .. A relative link
+=> gemini://gemini.circumlunar.space:1965/ An absolute link
+=> an-untitled-link.gmi
+
+Here's a regular text paragraph.
+
+* List item one
+* List item two
+    * Not a list item
+*Also not a list item
+
+>Quotation
+> More quotation
+>   Yes, a quotation
+    >No, not a quotation
+
+```language
+This is a preformat block.
+
+# Not really a heading
+=> gemini://url Not really a link
+* Not really a list item
+> Not really a quotation
+```

@@ -11,3 +11,5 @@ Copy `syntax/gemtext.vim` to `~/.vim/syntax/gemtext.vim`.
 Copy `ftdetect/gemtext.vim` to `~/.vim/ftdetect/gemtext.vim`.
 
 > This file associates Gemtext syntax with files ending in ".gmi" and ".gemini".
+
+To test, open `example.gmi` in a new vim process.
