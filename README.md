@@ -6,7 +6,7 @@ This is a Gemtext syntax mode for [vim](https://www.vim.org), with syntax highli
 
 Copy `syntax/gemtext.vim` to `~/.vim/syntax/gemtext.vim`.
 
-> This file describes the "gemtext" syntax mode. It matches the `text/gemini` MIME type described by section 5 of the [Gemini Specification](https://gemini.circumlunar.space/docs/specification.html).
+> This file describes the "gemtext" syntax mode. It matches the `text/gemini` MIME type described by the [gemtext specification](https://geminiprotocol.net/docs/gemtext-specification.gmi).
 
 Copy `ftdetect/gemtext.vim` to `~/.vim/ftdetect/gemtext.vim`.
 
